@@ -16,6 +16,8 @@
 		BD338E4F2C0465D600E7F2E7 /* CGFloat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E4E2C0465D600E7F2E7 /* CGFloat+Extension.swift */; };
 		BD338E512C04664300E7F2E7 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E502C04664300E7F2E7 /* View+Extension.swift */; };
 		BD338E532C0467D400E7F2E7 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E522C0467D400E7F2E7 /* Bundle+Extension.swift */; };
+		BD338E552C04794300E7F2E7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E542C04794300E7F2E7 /* SplashView.swift */; };
+		BD338E572C0479AB00E7F2E7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E562C0479AB00E7F2E7 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BD338E4E2C0465D600E7F2E7 /* CGFloat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extension.swift"; sourceTree = "<group>"; };
 		BD338E502C04664300E7F2E7 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		BD338E522C0467D400E7F2E7 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		BD338E542C04794300E7F2E7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BD338E562C0479AB00E7F2E7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				BD338E312C044AEB00E7F2E7 /* AnimalApp.swift */,
+				BD338E542C04794300E7F2E7 /* SplashView.swift */,
+				BD338E562C0479AB00E7F2E7 /* HomeView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -235,10 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD338E342C044AEB00E7F2E7 /* ContentView.swift in Sources */,
+				BD338E572C0479AB00E7F2E7 /* HomeView.swift in Sources */,
 				BD338E532C0467D400E7F2E7 /* Bundle+Extension.swift in Sources */,
 				BD338E322C044AEB00E7F2E7 /* AnimalApp.swift in Sources */,
 				BD338E512C04664300E7F2E7 /* View+Extension.swift in Sources */,
 				BD338E4F2C0465D600E7F2E7 /* CGFloat+Extension.swift in Sources */,
+				BD338E552C04794300E7F2E7 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
