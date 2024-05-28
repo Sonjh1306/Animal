@@ -9,10 +9,12 @@ import SwiftUI
 
 struct HomeView: View {
     
+    @State var viewModel: AnimalViewModel = AnimalViewModel()
+    
     var body: some View {
         TabView {
             // 1. ContentView
-            ContentView()
+            ContentView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "house.fill")
                     Text("홈")
