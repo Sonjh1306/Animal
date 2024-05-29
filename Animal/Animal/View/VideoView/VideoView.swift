@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct VideoView: View {
+    
+    @ObservedObject var viewModel: AnimalViewModel
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView(content: {
+            List {
+                ForEach(viewModel.videos) { (video) in
+                    NavigationLink {
+                        VideoPlayerView(video: video)
+                    } label: {
+                        VideoListItem(video: video)
+                    }
+                }
+            }
+            .listStyle(.plain)
+            .navigationBarTitle("비디오", displayMode: .inline)
+        })
     }
 }
 
 #Preview {
-    VideoView()
+    VideoView(viewModel: AnimalViewModel())
 }

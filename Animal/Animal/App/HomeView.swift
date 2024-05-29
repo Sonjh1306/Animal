@@ -21,7 +21,7 @@ struct HomeView: View {
                 }
             
             // 2. VideoView
-            VideoView()
+            VideoView(viewModel: viewModel)
                 .tabItem {
                     Image(systemName: "play.rectangle")
                     Text("비디오")
