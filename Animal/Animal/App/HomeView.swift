@@ -28,7 +28,7 @@ struct HomeView: View {
                 }
             
             // 3. GalleryView
-            GalleryView()
+            GalleryView(vm: viewModel)
                 .tabItem {
                     Image(systemName: "photo")
                     Text("갤러리")
