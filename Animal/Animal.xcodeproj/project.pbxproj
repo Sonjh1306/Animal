@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD2735E62C166EE2002EF972 /* AppInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2735E52C166EE2002EF972 /* AppInfoLabel.swift */; };
+		BD2735E82C166FD6002EF972 /* AppInfoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2735E72C166FD6002EF972 /* AppInfoContent.swift */; };
 		BD338E322C044AEB00E7F2E7 /* AnimalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E312C044AEB00E7F2E7 /* AnimalApp.swift */; };
 		BD338E342C044AEB00E7F2E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD338E332C044AEB00E7F2E7 /* ContentView.swift */; };
 		BD338E362C044AED00E7F2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD338E352C044AED00E7F2E7 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD2735E52C166EE2002EF972 /* AppInfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoLabel.swift; sourceTree = "<group>"; };
+		BD2735E72C166FD6002EF972 /* AppInfoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInfoContent.swift; sourceTree = "<group>"; };
 		BD338E2E2C044AEB00E7F2E7 /* Animal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD338E312C044AEB00E7F2E7 /* AnimalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalApp.swift; sourceTree = "<group>"; };
 		BD338E332C044AEB00E7F2E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -189,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				BD338E5C2C047D0300E7F2E7 /* AppInfoView.swift */,
+				BD2735E52C166EE2002EF972 /* AppInfoLabel.swift */,
+				BD2735E72C166FD6002EF972 /* AppInfoContent.swift */,
 			);
 			path = AppInfo;
 			sourceTree = "<group>";
@@ -324,10 +330,12 @@
 				BD338E322C044AEB00E7F2E7 /* AnimalApp.swift in Sources */,
 				BD83B79C2C05C5C40085E26A /* DetailGalleryView.swift in Sources */,
 				BD83B79A2C05C51B0085E26A /* DetailHeadView.swift in Sources */,
+				BD2735E82C166FD6002EF972 /* AppInfoContent.swift in Sources */,
 				BD338E5D2C047D0300E7F2E7 /* AppInfoView.swift in Sources */,
 				BD83B7A02C05C8A00085E26A /* ExternalWebLink.swift in Sources */,
 				BD6AF8A02C05A7E7002FFB50 /* Animal.swift in Sources */,
 				BD6AF8AA2C05B19E002FFB50 /* CoverImageView.swift in Sources */,
+				BD2735E62C166EE2002EF972 /* AppInfoLabel.swift in Sources */,
 				BD338E592C047CF500E7F2E7 /* VideoView.swift in Sources */,
 				BD338E512C04664300E7F2E7 /* View+Extension.swift in Sources */,
 				BD338E4F2C0465D600E7F2E7 /* CGFloat+Extension.swift in Sources */,
